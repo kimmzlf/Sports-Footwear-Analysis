@@ -20,24 +20,26 @@ Output dari project ini berupa dashboard pada Tableau.
 ## Data
 Sumber data : https://www.kaggle.com/datasets/aliiihussain/sports-footwear-sales-and-consumer-behavior
 
-- order_id – ID unik untuk setiap transaksi penjualan 
-- order_date – Tanggal terjadinya penjualan 
-- brand – Merek sepatu 
-- model_name – Nama/model spesifik sepatu 
-- category – Kategori sepatu (Running, Training, Basketball, Lifestyle, Gym) 
-- gender – Jenis kelamin target (Pria, Wanita, Unisex) 
-- size – Ukuran sepatu 
-- color – Warna sepatu 
-- base_price_usd – Harga asli sebelum diskon 
-- discount_percent – Persentase diskon yang diberikan (%) 
-- final_price_usd – Harga setelah diskon 
-- units_sold – Jumlah unit yang terjual 
-- revenue_usd – Total pendapatan dari transaksi 
-- payment_method – Metode pembayaran (Card, Cash, Wallet, Bank Transfer) 
-- sales_channel – Saluran penjualan (Online / Retail Store) 
-- country – Negara tempat penjualan 
-- customer_income_level – Tingkat pendapatan pelanggan (Low / Medium / High) 
-- customer_rating – Rata-rata penilaian pelanggan (3.0 hingga 5.0) 
+| Kolom                | Deskripsi |
+|------------------------|----------|
+| order_id               | ID unik untuk setiap transaksi penjualan |
+| order_date             | Tanggal terjadinya penjualan |
+| brand                  | Merek sepatu |
+| model_name             | Nama/model spesifik sepatu |
+| category               | Kategori sepatu (Running, Training, Basketball, Lifestyle, Gym) |
+| gender                 | Jenis kelamin target (Pria, Wanita, Unisex) |
+| size                   | Ukuran sepatu |
+| color                  | Warna sepatu |
+| base_price_usd         | Harga asli sebelum diskon |
+| discount_percent       | Persentase diskon yang diberikan (%) |
+| final_price_usd        | Harga setelah diskon |
+| units_sold             | Jumlah unit yang terjual |
+| revenue_usd            | Total pendapatan dari transaksi |
+| payment_method         | Metode pembayaran (Card, Cash, Wallet, Bank Transfer) |
+| sales_channel          | Saluran penjualan (Online / Retail Store) |
+| country                | Negara tempat penjualan |
+| customer_income_level  | Tingkat pendapatan pelanggan (Low / Medium / High) |
+| customer_rating        | Rata-rata penilaian pelanggan (3.0 hingga 5.0) |
 
 ## Method
 - Turkey's Rule / IQR -> Menghapus outlier, hal ini dikarenakan ketika nilai skewness > 0.5.  

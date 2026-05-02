@@ -1,10 +1,12 @@
 # Sports-Footwear-Analysis
 
-## Repository Outline
+## Repository Outline  
+```
 1. README.md - Penjelasan gambaran umum project
 2. notebook.ipynb - Notebook yang berisi pengolahan data dengan python
 3. sportswear.csv - Dataset yang digunakan  
 4. sportswear_clean.csv - Data clean yang digunakan dalam analisis.
+```
 
 
 ## Problem Background
